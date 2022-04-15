@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    background-color: rgb(224, 216, 216);
+    padding-top: 5%;
+}
+
+/* -------------1rst------------ */
+
+
+#con1{
+    background-color: white;
+    width: 550px;
+    height: 460px;
+    margin: auto;
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 0 18px black;
+}
+.img-top{
+    width: 500px;
+    height: 230px;
+    text-align: center;
+    border-radius: 80px 80px 15px 15px;
+}
+.img-b-l, .img-b-r{
+    display: inline-block;
+    height: 110px;
+    margin-top: 5%;
+}
+.img-b-l{
+    width: 280px;
+    border-radius: 15px 15px 15px 15px;
+}
+.img-b-r{
+    width: 210px;
+    border-radius: 15px 50px 50px 15px;
+    box-shadow: 0 -2px 3px black;
+    margin-left: 3px;
+}
+
+/* ----------------2nd--------------- */
+
+#con2{
+    background-color: rgb(14, 51, 77);
+    width: 100%;
+    height: 600px;
+    padding-top: 15%;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+.bande{
+    background-color: rgb(161, 229, 229);
+    width: 400px;
+    height: 230px;
+    margin: auto;
+    position: relative;
+    border-radius: 15px;
+}
+.img1, .img2{
+    width: 220px;
+    height: 130px;
+    border-radius: 70px;
+    position: absolute;
+}
+.img1{
+    top: -70px;
+    right: -110px;
+    box-shadow: -2px 2px 5px rgb(14, 51, 77)
+
+}
+.img2{
+     bottom: -70px;
+     left: -110px;
+     box-shadow: 2px -2px 5px rgb(14, 51, 77);
+}
+.p1{
+    color: rgb(14, 51, 77);
+    text-align: center;
+    font-family: candara;
+    font-size: x-large;
+    font-weight: 600;
+    position: absolute;
+    top: 80px;
+    left: 34px;
+}
+
+/* -----------------3rd-------------- */
+
+#con3{
+    background-color: rgb(10, 69, 112);
+    width: 100%;
+    height: 600px;
+    padding-top: 15%;
+    box-sizing: border-box;
+    position: relative;
+}
+.bande2{
+    background-color: rgb(95, 223, 179);;
+    color: rgb(15, 38, 55);;
+    width: 270px;
+    height: 160px;
+    box-sizing: border-box;
+    padding: 2%;
+    border-radius: 15px;
+    position: absolute;
+    top: 120px;
+    right: 230px;
+    z-index: 10;
+    box-shadow: -2px 2px 5px rgb(14, 44, 65);
+}
+.h1, .p2{
+    text-align: center;
+    font-family: verdana;
+    font-size: x-large;
+    font-weight: 600;
+}
+.img3{
+    width: 400px;
+    height: 260px;
+    border-radius: 15px;
+    position: absolute;
+    left: 440px;
+    z-index: 5;
+}
